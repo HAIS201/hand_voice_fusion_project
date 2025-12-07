@@ -1,0 +1,14 @@
+conda create -n hand_env python=3.10 -y
+conda activate hand_env
+
+# early GRU C_fusion
+python unity_test.py --mode early --only_cfusion --delay 1.0
+
+# late GRU C_fusion
+python unity_test.py --mode late  --only_cfusion --delay 1.0
+
+# only A_hand
+python unity_test_single.py --mode late  --subset A_hand --delay 1.0
+
+# only B_voice
+python unity_test_single.py --mode late  --subset B_voice --delay 1.0

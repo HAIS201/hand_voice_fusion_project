@@ -1,3 +1,0 @@
-TEST Gesture Acc: 0.3750 (72 items)
-TEST Voice   Acc: 0.5938 (64 items)
-TEST C_fusion Pair-Acc: 0.1833 (60 pairs)

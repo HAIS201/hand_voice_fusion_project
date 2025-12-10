@@ -1,0 +1,17 @@
+Early Fusion vs Late Fusion – Detailed Comparison
+============================================================
+
+1. Key metric comparison
+----------------------------------------
+       Metric  Early Fusion  Late Fusion  Improvement(%)
+Move Accuracy        0.9909       0.9727         -1.8367
+ Act Accuracy        0.8295       0.7955         -4.0989
+ C_fusion CSR        0.8125       0.8000         -1.5385
+
+3. Overall performance
+----------------------------------------
+Early Fusion average: 0.8776
+Late  Fusion average: 0.8561
+Relative improvement: -2.5%
+
+Conclusion: Under this setting, Early Fusion is better.

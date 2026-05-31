@@ -225,4 +225,4 @@ Python 스크립트가 UDP 명령을 전송하면 Unity 캐릭터가 해당 명�
 ## Author
 
 LI HAISONG
-Department of Software Convergence
+소프트웨어융합학과

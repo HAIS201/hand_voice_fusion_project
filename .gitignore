@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+
+# generated features / data
+features/
+*.npy
+*.npz
+
+# model checkpoints
+*.pth
+*.pt
+*.pkl
+
+# media / compressed
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+
+# Unity generated
+Unity/**/Library/
+Unity/**/Temp/
+Unity/**/Obj/
+Unity/**/Build/
+Unity/**/Builds/
+Unity/**/Logs/
+Unity/**/UserSettings/
+Unity/**/*.csproj
+Unity/**/*.sln

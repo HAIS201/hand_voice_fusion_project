@@ -9,18 +9,18 @@
   seed: 42
 
 데이터셋 정보:
-  학습 세트: 354 개 샘플
+  학습 세트: 389 개 샘플
   검증 세트: 118 개 샘플
   테스트 세트: 118 개 샘플
 
 평가 결과:
-  최고 검증 정확도 (avg): 0.9455 (epoch 11)
-  테스트 세트 이동 정확도: 0.9909
+  최고 검증 정확도 (avg): 0.9398 (epoch 12)
+  테스트 세트 이동 정확도: 0.9818
   테스트 세트 행동 정확도: 0.8295
-  C_fusion 테스트 세트 CSR: 0.8125 (80 clips)
+  C_fusion 테스트 세트 CSR: 0.8250 (80 clips)
 
 환경(env)별 C_fusion CSR:
-  BrightFan: 0.8000
-  BrightQuiet: 0.9444
-  DimFan: 0.7500
-  DimQuiet: 0.7727
+  BrightFan: 0.8500
+  BrightQuiet: 0.9500
+  DimFan: 0.6364
+  DimQuiet: 0.8889

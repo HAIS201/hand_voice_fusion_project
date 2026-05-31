@@ -1,17 +1,17 @@
-Early Fusion vs Late Fusion – Detailed Comparison
+조기 융합 vs 후기 융합 상세 비교 리포트
 ============================================================
 
-1. Key metric comparison
+1. 주요 지표 비교:
 ----------------------------------------
-       Metric  Early Fusion  Late Fusion  Improvement(%)
-Move Accuracy        0.9909       0.9727         -1.8367
- Act Accuracy        0.8295       0.7955         -4.0989
- C_fusion CSR        0.8125       0.8000         -1.5385
+          지표  조기 융합  후기 융합  개선율(%)
+      이동 정확도 0.9818 0.9818  0.0000
+      행동 정확도 0.8295 0.8409  1.3743
+C_fusion CSR 0.8250 0.8250  0.0000
 
-3. Overall performance
+3. 전체 성능 분석:
 ----------------------------------------
-Early Fusion average: 0.8776
-Late  Fusion average: 0.8561
-Relative improvement: -2.5%
+조기 융합 평균 성능: 0.8788
+후기 융합 평균 성능: 0.8826
+전체 평균 기준 개선율: +0.4%
 
-Conclusion: Under this setting, Early Fusion is better.
+결론: 이번 실험 설정에서는 '후기 융합' 전략이 더 우수한 성능을 보였습니다.

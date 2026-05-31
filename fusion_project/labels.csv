@@ -29,6 +29,9 @@ A_hand,A_hand/BACKWARD_14_E1.mp4,BrightQuiet,BACKWARD,NONE
 A_hand,A_hand/BACKWARD_14_E3.mp4,DimQuiet,BACKWARD,NONE
 A_hand,A_hand/BACKWARD_15_E1.mp4,BrightQuiet,BACKWARD,NONE
 A_hand,A_hand/BACKWARD_15_E3.mp4,DimQuiet,BACKWARD,NONE
+A_hand,A_hand/BACKWARD_16_E3.mp4,DimQuiet,BACKWARD,NONE
+A_hand,A_hand/BACKWARD_17_E3.mp4,DimQuiet,BACKWARD,NONE
+A_hand,A_hand/BACKWARD_18_E3.mp4,DimQuiet,BACKWARD,NONE
 A_hand,A_hand/FORWARD_01_E1.mp4,BrightQuiet,FORWARD,NONE
 A_hand,A_hand/FORWARD_01_E3.mp4,DimQuiet,FORWARD,NONE
 A_hand,A_hand/FORWARD_02_E1.mp4,BrightQuiet,FORWARD,NONE
@@ -59,6 +62,9 @@ A_hand,A_hand/FORWARD_14_E1.mp4,BrightQuiet,FORWARD,NONE
 A_hand,A_hand/FORWARD_14_E3.mp4,DimQuiet,FORWARD,NONE
 A_hand,A_hand/FORWARD_15_E1.mp4,BrightQuiet,FORWARD,NONE
 A_hand,A_hand/FORWARD_15_E3.mp4,DimQuiet,FORWARD,NONE
+A_hand,A_hand/FORWARD_16_E3.mp4,DimQuiet,FORWARD,NONE
+A_hand,A_hand/FORWARD_17_E3.mp4,DimQuiet,FORWARD,NONE
+A_hand,A_hand/FORWARD_18_E3.mp4,DimQuiet,FORWARD,NONE
 A_hand,A_hand/LEFT_01_E1.mp4,BrightQuiet,LEFT,NONE
 A_hand,A_hand/LEFT_01_E3.mp4,DimQuiet,LEFT,NONE
 A_hand,A_hand/LEFT_02_E1.mp4,BrightQuiet,LEFT,NONE
@@ -89,6 +95,9 @@ A_hand,A_hand/LEFT_14_E1.mp4,BrightQuiet,LEFT,NONE
 A_hand,A_hand/LEFT_14_E3.mp4,DimQuiet,LEFT,NONE
 A_hand,A_hand/LEFT_15_E1.mp4,BrightQuiet,LEFT,NONE
 A_hand,A_hand/LEFT_15_E3.mp4,DimQuiet,LEFT,NONE
+A_hand,A_hand/LEFT_16_E3.mp4,DimQuiet,LEFT,NONE
+A_hand,A_hand/LEFT_17_E3.mp4,DimQuiet,LEFT,NONE
+A_hand,A_hand/LEFT_18_E3.mp4,DimQuiet,LEFT,NONE
 A_hand,A_hand/RIGHT_01_E1.mp4,BrightQuiet,RIGHT,NONE
 A_hand,A_hand/RIGHT_01_E3.mp4,DimQuiet,RIGHT,NONE
 A_hand,A_hand/RIGHT_02_E1.mp4,BrightQuiet,RIGHT,NONE
@@ -119,6 +128,9 @@ A_hand,A_hand/RIGHT_14_E1.mp4,BrightQuiet,RIGHT,NONE
 A_hand,A_hand/RIGHT_14_E3.mp4,DimQuiet,RIGHT,NONE
 A_hand,A_hand/RIGHT_15_E1.mp4,BrightQuiet,RIGHT,NONE
 A_hand,A_hand/RIGHT_15_E3.mp4,DimQuiet,RIGHT,NONE
+A_hand,A_hand/RIGHT_16_E3.mp4,DimQuiet,RIGHT,NONE
+A_hand,A_hand/RIGHT_17_E3.mp4,DimQuiet,RIGHT,NONE
+A_hand,A_hand/RIGHT_18_E3.mp4,DimQuiet,RIGHT,NONE
 A_hand,A_hand/STOP_01_E1.mp4,BrightQuiet,STOP,NONE
 A_hand,A_hand/STOP_01_E3.mp4,DimQuiet,STOP,NONE
 A_hand,A_hand/STOP_02_E1.mp4,BrightQuiet,STOP,NONE
@@ -149,6 +161,9 @@ A_hand,A_hand/STOP_14_E1.mp4,BrightQuiet,STOP,NONE
 A_hand,A_hand/STOP_14_E3.mp4,DimQuiet,STOP,NONE
 A_hand,A_hand/STOP_15_E1.mp4,BrightQuiet,STOP,NONE
 A_hand,A_hand/STOP_15_E3.mp4,DimQuiet,STOP,NONE
+A_hand,A_hand/STOP_16_E3.mp4,DimQuiet,STOP,NONE
+A_hand,A_hand/STOP_17_E3.mp4,DimQuiet,STOP,NONE
+A_hand,A_hand/STOP_18_E3.mp4,DimQuiet,STOP,NONE
 B_voice,B_voice/ATTACK_01_E1.mp4,BrightQuiet,NONE,ATTACK
 B_voice,B_voice/ATTACK_01_E2.mp4,BrightFan,NONE,ATTACK
 B_voice,B_voice/ATTACK_02_E1.mp4,BrightQuiet,NONE,ATTACK
@@ -229,6 +244,8 @@ C_fusion,C_fusion/BACKWARD_ATTACK_10_E1.mp4,BrightQuiet,BACKWARD,ATTACK
 C_fusion,C_fusion/BACKWARD_ATTACK_10_E2.mp4,BrightFan,BACKWARD,ATTACK
 C_fusion,C_fusion/BACKWARD_ATTACK_10_E3.mp4,DimQuiet,BACKWARD,ATTACK
 C_fusion,C_fusion/BACKWARD_ATTACK_10_E4.mp4,DimFan,BACKWARD,ATTACK
+C_fusion,C_fusion/BACKWARD_ATTACK_11_E3.mp4,DimQuiet,BACKWARD,ATTACK
+C_fusion,C_fusion/BACKWARD_ATTACK_11_E4.mp4,DimFan,BACKWARD,ATTACK
 C_fusion,C_fusion/BACKWARD_DEFEND_01_E1.mp4,BrightQuiet,BACKWARD,DEFEND
 C_fusion,C_fusion/BACKWARD_DEFEND_01_E2.mp4,BrightFan,BACKWARD,DEFEND
 C_fusion,C_fusion/BACKWARD_DEFEND_01_E3.mp4,DimQuiet,BACKWARD,DEFEND
@@ -269,6 +286,8 @@ C_fusion,C_fusion/BACKWARD_DEFEND_10_E1.mp4,BrightQuiet,BACKWARD,DEFEND
 C_fusion,C_fusion/BACKWARD_DEFEND_10_E2.mp4,BrightFan,BACKWARD,DEFEND
 C_fusion,C_fusion/BACKWARD_DEFEND_10_E3.mp4,DimQuiet,BACKWARD,DEFEND
 C_fusion,C_fusion/BACKWARD_DEFEND_10_E4.mp4,DimFan,BACKWARD,DEFEND
+C_fusion,C_fusion/BACKWARD_DEFEND_11_E3.mp4,DimQuiet,BACKWARD,DEFEND
+C_fusion,C_fusion/BACKWARD_DEFEND_11_E4.mp4,DimFan,BACKWARD,DEFEND
 C_fusion,C_fusion/FORWARD_ATTACK_01_E1.mp4,BrightQuiet,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_ATTACK_01_E2.mp4,BrightFan,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_ATTACK_01_E3.mp4,DimQuiet,FORWARD,ATTACK
@@ -309,6 +328,8 @@ C_fusion,C_fusion/FORWARD_ATTACK_10_E1.mp4,BrightQuiet,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_ATTACK_10_E2.mp4,BrightFan,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_ATTACK_10_E3.mp4,DimQuiet,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_ATTACK_10_E4.mp4,DimFan,FORWARD,ATTACK
+C_fusion,C_fusion/FORWARD_ATTACK_11_E3.mp4,DimQuiet,FORWARD,ATTACK
+C_fusion,C_fusion/FORWARD_ATTACK_11_E4.mp4,DimFan,FORWARD,ATTACK
 C_fusion,C_fusion/FORWARD_DEFEND_01_E1.mp4,BrightQuiet,FORWARD,DEFEND
 C_fusion,C_fusion/FORWARD_DEFEND_01_E2.mp4,BrightFan,FORWARD,DEFEND
 C_fusion,C_fusion/FORWARD_DEFEND_01_E3.mp4,DimQuiet,FORWARD,DEFEND
@@ -349,6 +370,8 @@ C_fusion,C_fusion/FORWARD_DEFEND_10_E1.mp4,BrightQuiet,FORWARD,DEFEND
 C_fusion,C_fusion/FORWARD_DEFEND_10_E2.mp4,BrightFan,FORWARD,DEFEND
 C_fusion,C_fusion/FORWARD_DEFEND_10_E3.mp4,DimQuiet,FORWARD,DEFEND
 C_fusion,C_fusion/FORWARD_DEFEND_10_E4.mp4,DimFan,FORWARD,DEFEND
+C_fusion,C_fusion/FORWARD_DEFEND_11_E3.mp4,DimQuiet,FORWARD,DEFEND
+C_fusion,C_fusion/FORWARD_DEFEND_11_E4.mp4,DimFan,FORWARD,DEFEND
 C_fusion,C_fusion/LEFT_ATTACK_01_E1.mp4,BrightQuiet,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_ATTACK_01_E2.mp4,BrightFan,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_ATTACK_01_E3.mp4,DimQuiet,LEFT,ATTACK
@@ -389,6 +412,8 @@ C_fusion,C_fusion/LEFT_ATTACK_10_E1.mp4,BrightQuiet,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_ATTACK_10_E2.mp4,BrightFan,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_ATTACK_10_E3.mp4,DimQuiet,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_ATTACK_10_E4.mp4,DimFan,LEFT,ATTACK
+C_fusion,C_fusion/LEFT_ATTACK_11_E3.mp4,DimQuiet,LEFT,ATTACK
+C_fusion,C_fusion/LEFT_ATTACK_11_E4.mp4,DimFan,LEFT,ATTACK
 C_fusion,C_fusion/LEFT_DEFEND_01_E1.mp4,BrightQuiet,LEFT,DEFEND
 C_fusion,C_fusion/LEFT_DEFEND_01_E2.mp4,BrightFan,LEFT,DEFEND
 C_fusion,C_fusion/LEFT_DEFEND_01_E3.mp4,DimQuiet,LEFT,DEFEND
@@ -429,6 +454,8 @@ C_fusion,C_fusion/LEFT_DEFEND_10_E1.mp4,BrightQuiet,LEFT,DEFEND
 C_fusion,C_fusion/LEFT_DEFEND_10_E2.mp4,BrightFan,LEFT,DEFEND
 C_fusion,C_fusion/LEFT_DEFEND_10_E3.mp4,DimQuiet,LEFT,DEFEND
 C_fusion,C_fusion/LEFT_DEFEND_10_E4.mp4,DimFan,LEFT,DEFEND
+C_fusion,C_fusion/LEFT_DEFEND_11_E3.mp4,DimQuiet,LEFT,DEFEND
+C_fusion,C_fusion/LEFT_DEFEND_11_E4.mp4,DimFan,LEFT,DEFEND
 C_fusion,C_fusion/RIGHT_ATTACK_01_E1.mp4,BrightQuiet,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_ATTACK_01_E2.mp4,BrightFan,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_ATTACK_01_E3.mp4,DimQuiet,RIGHT,ATTACK
@@ -469,6 +496,8 @@ C_fusion,C_fusion/RIGHT_ATTACK_10_E1.mp4,BrightQuiet,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_ATTACK_10_E2.mp4,BrightFan,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_ATTACK_10_E3.mp4,DimQuiet,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_ATTACK_10_E4.mp4,DimFan,RIGHT,ATTACK
+C_fusion,C_fusion/RIGHT_ATTACK_11_E3.mp4,DimQuiet,RIGHT,ATTACK
+C_fusion,C_fusion/RIGHT_ATTACK_11_E4.mp4,DimFan,RIGHT,ATTACK
 C_fusion,C_fusion/RIGHT_DEFEND_01_E1.mp4,BrightQuiet,RIGHT,DEFEND
 C_fusion,C_fusion/RIGHT_DEFEND_01_E2.mp4,BrightFan,RIGHT,DEFEND
 C_fusion,C_fusion/RIGHT_DEFEND_01_E3.mp4,DimQuiet,RIGHT,DEFEND
@@ -509,6 +538,8 @@ C_fusion,C_fusion/RIGHT_DEFEND_10_E1.mp4,BrightQuiet,RIGHT,DEFEND
 C_fusion,C_fusion/RIGHT_DEFEND_10_E2.mp4,BrightFan,RIGHT,DEFEND
 C_fusion,C_fusion/RIGHT_DEFEND_10_E3.mp4,DimQuiet,RIGHT,DEFEND
 C_fusion,C_fusion/RIGHT_DEFEND_10_E4.mp4,DimFan,RIGHT,DEFEND
+C_fusion,C_fusion/RIGHT_DEFEND_11_E3.mp4,DimQuiet,RIGHT,DEFEND
+C_fusion,C_fusion/RIGHT_DEFEND_11_E4.mp4,DimFan,RIGHT,DEFEND
 C_fusion,C_fusion/STOP_ATTACK_01_E1.mp4,BrightQuiet,STOP,ATTACK
 C_fusion,C_fusion/STOP_ATTACK_01_E2.mp4,BrightFan,STOP,ATTACK
 C_fusion,C_fusion/STOP_ATTACK_01_E3.mp4,DimQuiet,STOP,ATTACK
@@ -549,6 +580,8 @@ C_fusion,C_fusion/STOP_ATTACK_10_E1.mp4,BrightQuiet,STOP,ATTACK
 C_fusion,C_fusion/STOP_ATTACK_10_E2.mp4,BrightFan,STOP,ATTACK
 C_fusion,C_fusion/STOP_ATTACK_10_E3.mp4,DimQuiet,STOP,ATTACK
 C_fusion,C_fusion/STOP_ATTACK_10_E4.mp4,DimFan,STOP,ATTACK
+C_fusion,C_fusion/STOP_ATTACK_11_E3.mp4,DimQuiet,STOP,ATTACK
+C_fusion,C_fusion/STOP_ATTACK_11_E4.mp4,DimFan,STOP,ATTACK
 C_fusion,C_fusion/STOP_DEFEND_01_E1.mp4,BrightQuiet,STOP,DEFEND
 C_fusion,C_fusion/STOP_DEFEND_01_E2.mp4,BrightFan,STOP,DEFEND
 C_fusion,C_fusion/STOP_DEFEND_01_E3.mp4,DimQuiet,STOP,DEFEND
@@ -589,3 +622,5 @@ C_fusion,C_fusion/STOP_DEFEND_10_E1.mp4,BrightQuiet,STOP,DEFEND
 C_fusion,C_fusion/STOP_DEFEND_10_E2.mp4,BrightFan,STOP,DEFEND
 C_fusion,C_fusion/STOP_DEFEND_10_E3.mp4,DimQuiet,STOP,DEFEND
 C_fusion,C_fusion/STOP_DEFEND_10_E4.mp4,DimFan,STOP,DEFEND
+C_fusion,C_fusion/STOP_DEFEND_11_E3.mp4,DimQuiet,STOP,DEFEND
+C_fusion,C_fusion/STOP_DEFEND_11_E4.mp4,DimFan,STOP,DEFEND

@@ -278,57 +278,11 @@ def compare_fusion_strategies():
             else:
                 f.write("결론: 이번 실험 설정에서는 '조기 융합' 전략이 더 우수한 성능을 보였습니다.\n")
 
-            f.write("\n4. 추가 해석 및 제안:\n")
-            f.write("-" * 40 + "\n")
-            f.write("• 조기 융합: 모달리티 수준에서 특징을 합치므로, 손/음성 간 상관관계를\n")
-            f.write("  학습하기에 유리하지만, 한 모달이 약할 때 영향을 크게 받을 수 있습니다.\n")
-            f.write("• 후기 융합: 각 모달을 독립적으로 인코딩한 후 최종 단계에서 결합하므로,\n")
-            f.write("  한쪽 모달이 조금 약해도 전체 결정이 더 안정적인 경향이 있습니다.\n")
-            f.write("\n향후 개선 아이디어:\n")
-            f.write("1) 조기 융합 + 후기 융합을 혼합한 하이브리드 구조 실험\n")
-            f.write("2) GRU 대신 Transformer, LSTM, 또는 Attention 기반 인코더 도입\n")
-            f.write("3) 모달별 신뢰도(가중치)를 학습하는 게이팅(gating) 메커니즘 적용\n")
-            f.write("4) 데이터 증강(노이즈, 시간 스케일, 음량 변화 등)을 통한 일반화 성능 향상\n")
-            f.write("5) 학습률 스케줄러, 옵티마이저(AdamW 등) 및 정규화 기법 추가 실험\n")
-
         print(f"상세 비교 리포트가 저장되었습니다: {OUT_DIR / 'fusion_comparison.txt'}")
 
     except Exception as e:
         print(f"시각화 생성 중 오류 발생: {e}")
         print("matplotlib 또는 환경 설정을 다시 확인해 주세요.")
-
-    # ----------------- 콘솔 요약 -----------------
-    print("\n" + "=" * 80)
-    print("요약 및 제안")
-    print("=" * 80)
-
-    early_avg = comparison["조기 융합"].mean()
-    late_avg = comparison["후기 융합"].mean()
-
-    print(f"조기 융합 평균 성능: {early_avg:.3f}")
-    print(f"후기 융합 평균 성능: {late_avg:.3f}")
-
-    if late_avg > early_avg:
-        improvement = ((late_avg - early_avg) / early_avg * 100) if early_avg > 0 else 0.0
-        print(f"→ 이번 실험에서는 후기 융합이 조기 융합보다 약 {improvement:.1f}% 우세합니다.")
-        print("\n간단 제안:")
-        print("1) 실시간 시스템/게임 적용 시, 기본 구조로 '후기 융합'을 우선 고려")
-        print("2) 손/음성 중 하나가 불안정한 환경에서는 후기 융합이 더 안정적일 가능성이 큼")
-        print("3) 이후에는 후기 융합 구조에 Attention 또는 모달 가중치 학습을 추가해 볼 수 있음")
-    else:
-        improvement = ((early_avg - late_avg) / late_avg * 100) if late_avg > 0 else 0.0
-        print(f"→ 이번 실험에서는 조기 융합이 후기 융합보다 약 {improvement:.1f}% 우세합니다.")
-        print("\n간단 제안:")
-        print("1) 손/음성 간 상관관계를 강하게 활용하고 싶다면 '조기 융합' 구조를 채택")
-        print("2) 입력 특징 설계(정규화, 정렬 등)를 더 정교하게 다듬으면 조기 융합이 더 유리해질 수 있음")
-        print("3) Attention 기반 조기 융합(Feature-level Attention)도 향후 실험 후보")
-
-    print("\n추가 개선 방향(공통):")
-    print("1) 데이터 수를 늘리거나, 다양한 환경(E1~E4)에서 균형 있게 수집")
-    print("2) 손/음성 인코더의 깊이, 차원 수, Dropout 비율 등을 튜닝")
-    print("3) 학습 로그 및 혼동 행렬을 추가로 분석해, 어떤 클래스에서 엇갈리는지 확인")
-    print("4) Early/Late Fusion 결과를 실제 Unity 데모와 함께 질적으로 평가")
-
 
 if __name__ == "__main__":
     compare_fusion_strategies()

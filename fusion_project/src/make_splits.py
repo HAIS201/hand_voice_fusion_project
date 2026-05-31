@@ -23,11 +23,7 @@ def create_composite_label(row):
 
 
 def make_stratified_splits(df, val_ratio=0.2, test_ratio=0.2, seed=42):
-    """
-    분층(계층) 분할을 수행하여,
-    각 subset 및 (move_label + act_label) 조합의 비율을 최대한 유지하도록
-    train / val / test로 나누는 함수
-    """
+
     # 랜덤 시드 고정
     np.random.seed(seed)
     random.seed(seed)

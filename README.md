@@ -165,21 +165,21 @@ Unity에서는 `UDPReceiver.cs`가 Python에서 전송한 UDP 문자열을 수�
 hand_voice_fusion_project/
 │
 ├── fusion_project/
-│   ├── labels.csv
-│   ├── splits/
-│   ├── src/
-│   └── outputs/
+│   ├── labels.csv              # 전체 데이터 라벨 정보
+│   ├── splits/                 # train / val / test 분할 파일
+│   ├── src/                    # 특징 추출, 학습, 평가 코드
+│   └── outputs/                # 실험 결과 리포트 및 그래프
 │
 ├── Unity/
-│   ├── Assets/
-│   ├── Packages/
-│   └── ProjectSettings/
+│   ├── Assets/                 # Unity 씬, 스크립트, 모델, 애니메이션
+│   ├── Packages/               # Unity 패키지 설정
+│   └── ProjectSettings/        # Unity 프로젝트 설정
 │
-├── run_both.py
-├── send_hand_cmd_latefusion.py
-├── send_voice_cmd_latefusion.py
-├── hand_env.yml
-├── conda.txt
+├── run_both.py                 # 손 제스처 + 음성 인식 동시 실행
+├── send_hand_cmd_latefusion.py # 손 제스처 명령 전송
+├── send_voice_cmd_latefusion.py# 음성 명령 전송
+├── hand_env.yml                # Conda 환경 설정
+├── conda.txt                   # 환경 관련 참고 파일
 └── README.md
 ```
 
